@@ -1,0 +1,98 @@
+.olympic_rings {
+    width: 500px;
+    height: 500px;
+    position: relative;
+  }
+  
+  .ring {
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .blue {
+    top: 30px;
+    left: 30px;
+    border: 10px solid #0080cb;
+    z-index: -1;
+  }
+  
+  .black {
+    top: 30px;
+    left: 160px;
+    border: 10px solid #000000;
+    z-index: -1;
+  }
+  
+  .red {
+    top: 30px;
+    left: 290px;
+    border: 10px solid #f02c49;
+    z-index: -1;
+  }
+  
+  .yellow {
+    top: 90px;
+    left: 95px;
+    border: 10px solid #fdb405;
+  }
+  
+  .green {
+    top: 90px;
+    left: 225px;
+    border: 10px solid #05a84d;
+  }
+
+  .light_blue {
+    top: 155px;
+    left: 160px;
+    border: 10px solid #a5f2f3;
+  }
+  
+  .overlap {
+    border: 10px solid transparent; 
+  }
+
+  .overlap_blue {
+
+  border-right:10px solid #0080cb;
+  top: 30px; 
+  left: 30px;	
+  z-index: 10;
+}
+
+  .overlap_black {
+
+  border-right:10px solid #000000;
+  border-bottom:10px solid #000000;
+  top: 30px; 
+  left: 160px;	
+  z-index: 10;
+}
+
+  .overlap_red {
+
+  border-bottom:10px solid #f02c49;
+  top: 30px; 
+  left: 290px;	
+  z-index: 10;
+}
+
+
+  .overlap_yellow {
+
+  border-left:10px solid #fdb405;
+  border-right:10px solid #fdb405;
+  top: 90px; 
+  left: 95px;	
+  z-index: 9;
+}
+
+  .overlap_green {
+
+  border-left:10px solid #05a84d;
+  top: 90px; 
+  left: 225px;	
+  z-index: 9;
+}
